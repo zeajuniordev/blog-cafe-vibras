@@ -24,9 +24,10 @@ export default function Home({ allPostsData }) {
       {/* Add this <section> tag below the existing <section> tag */}
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         {/* <h2 className={utilStyles.headingLg}>Encaminados hacia el despertar de la consciencia.</h2> */}
-        <h3 className={utilStyles.subtittle1}>Encaminados hacia el despertar de la consciencia.</h3>
-        <h4 className={utilStyles.subtittle}>&#9889; Creamos espacios para el desarrollo interior del ser humano.</h4>
-        <h4 className={utilStyles.subtittle}>&#9889; Meditar para avivar.</h4>
+        <h3 className={utilStyles.subtittle1}>Café ☕️ & Viajes 🚀</h3>
+        <h4 className={utilStyles.subtittle}>&#9889; Atraes lo que vibras </h4>
+        <h4 className={utilStyles.subtittle}>📍Nueva Villa de Aburrá</h4>
+        <h4 className={utilStyles.subtittle}>📍Laureles Nogal</h4>
         {/* <p className={utilStyles.paragraph}>Vamos hacer el trabajo de transformanos y brillar como una &#11088;</p> */}
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
