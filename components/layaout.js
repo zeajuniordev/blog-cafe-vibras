@@ -4,8 +4,8 @@ import Link from 'next/link';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css'
 
-const name = 'Mao Agudelo';
-export const siteTitle = 'Blog Mao Agudelo';
+const name = 'Medellín Consciente';
+export const siteTitle = 'Blog Medellín Consciente';
 
 export default function Layout({ children, home  }) {
     console.log("home", home)
